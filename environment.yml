@@ -1,0 +1,25 @@
+name: llmc
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - "python>=3.10"
+  - tqdm
+  - "numpy<2"
+  - requests
+  - pytorch
+  - pytorch-cuda=12.4
+  - transformers
+  - datasets
+  - tiktoken
+  - cuda-toolkit=12.4
+  - cuda-nvcc
+  - libcublas
+  - libcurand
+  - make
+  - cmake
+  - openmp
+  - pip
