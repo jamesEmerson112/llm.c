@@ -1,0 +1,22 @@
+name: llmc
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.10
+  - tqdm
+  - numpy<2
+  - requests
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - pytorch::cpuonly
+  - transformers
+  - datasets
+  - tiktoken
+  - make
+  - cmake
+  - llvm-openmp
+  - pip
